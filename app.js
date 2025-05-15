@@ -154,7 +154,7 @@ var num3 = Number(window.prompt("Enter Biology mark"));
 var num4 = Number(window.prompt("Enter Mathematics mark"));
 var num5 = Number(window.prompt("Enter Computer mark"));
 
-if (num1<=100 &&  num2<=100 && num3<=100 && num4<=100 && num5<=100 )
+if (0<num1 &&  num1<=100 &&  0<num2 && num2<=100 && 0<num3 && num3<=100 && 0<num4 && num4<=100 && 0<num5 && num5<=100 )
 {
     if(((num1+num2+num3+num4+num5)/5) >= 90){
         console.log("Grad: A");
